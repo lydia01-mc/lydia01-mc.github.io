@@ -1,0 +1,201 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    background-color: #000000;
+}
+
+main{
+    overflow: hidden;
+}
+.texto-titulos{
+    height: 300px;
+    line-height: 300PX;
+    text-align: center;
+    font-size: 80px;
+    color: #fff;
+}
+
+.texto-corrido{
+    text-align: left;
+    font-size: 20px;
+    color: #fff;
+}
+.texto-premios{
+    text-align: left;
+    font-size: 30px;
+    color: #fff;
+}
+.contenedor{
+    width: 60%;
+    min-width: 400px;
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bg-negro{
+    background-color: #000000;
+}
+
+h5{
+    color: #ff6fe0;
+    text-size-adjust: 80px;
+    text-align: left;
+}
+
+/*PREMIOS AÑOS*/
+.bg-interactivo {
+    padding-left: 300px;
+    width: 100%;
+    line-height: 100PX;
+    text-align: center;
+    font-size: 50px;
+    background-color: #ff6fe0;
+    transition: all 2s;
+    }
+
+.bg-interactivo.visible {
+    background-color: #000;
+}
+
+.bg2-interactivo {
+    padding-left: 300px;
+    width: 100%;
+    line-height: 100PX;
+    text-align: center;
+    font-size: 50px;
+    background-color: #ff6fe0;
+    transition: all 2s;
+}
+    
+.bg2-interactivo.visible {
+    background-color: #000;
+}
+
+.bg3-interactivo {
+    padding-left: 300px;
+    width: 100%;
+    line-height: 100PX;
+    text-align: center;
+    font-size: 50px;
+    background-color: #ff6fe0;
+    transition: all 2s;
+}
+        
+.bg3-interactivo.visible {
+    background-color: #000;
+}
+
+.bg4-interactivo {
+    padding-left: 300px;
+    width: 100%;
+    line-height: 100PX;
+    text-align: center;
+    font-size: 50px;
+    background-color: #ff6fe0;
+    transition: all 2s;
+}
+        
+.bg4-interactivo.visible {
+    background-color: #000;
+}
+/*PREMIOS AÑOS*/
+.img-fluid{
+    width: 100%;
+}
+
+.parallax-window {
+    min-height:300px;
+    background: transparent;
+}
+
+
+/*IMAGENES TRANSICIONES*/
+.marco img{
+    opacity: 10%;
+}
+.marco.visible img{
+    transition: all 2s;
+    opacity: 100%;
+}
+
+.marco-izq img{
+    transition: all 1s 1ms;
+    transform: translate(1500px, 0);
+}
+.marco-izq.visible img{
+    transform: translate(0,0);
+}
+
+.marco-derecha img{
+    transition: all 1s 1ms;
+    transform: translate(-1500px, 0);
+}
+.marco-derecha.visible img{
+    transform: translate(0,0);
+}
+
+.marco2-izq img{
+    transition: all 1s 1s;
+    transform: translate(1500px, 0);
+}
+.marco2-izq.visible img{
+    transform: translate(0,0);
+}
+
+.marco3-izq img{
+    transition: all 1s 1s;
+    transform: translate(1500px, 0);
+}
+.marco3-izq.visible img{
+    transform: translate(0,0);
+}
+
+.marco4-izq img{
+    transition: all 1s 1s;
+    transform: translate(1500px, 0);
+}
+.marco4-izq.visible img{
+    transform: translate(0,0);
+}
+
+.marco5-izq img{
+    transition: all 1s 1s;
+    transform: translate(1500px, 0);
+}
+.marco5-izq.visible img{
+    transform: translate(0,0);
+}
+
+.marco6-izq img{
+    transition: all 1s 1s;
+    transform: translate(1500px, 0);
+}
+.marco6-izq.visible img{
+    transform: translate(0,0);
+}
+
+.marco7-izq img{
+    transition: all 1s 1s;
+    transform: translate(1500px, 0);
+}
+.marco7-izq.visible img{
+    transform: translate(0,0);
+}
+
+.marco8-izq img{
+    transition: all 1s 1s;
+    transform: translate(1500px, 0);
+}
+.marco8-izq.visible img{
+    transform: translate(0,0);
+}
+
+.marco9-izq img{
+    transition: all 1s 1s;
+    transform: translate(1500px, 0);
+}
+.marco9-izq.visible img{
+    transform: translate(0,0);
+}
